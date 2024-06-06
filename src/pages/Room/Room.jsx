@@ -23,7 +23,7 @@ export default function Room() {
             container: element,
             sharedLinks: [{
                 name: 'Copy Link',
-                url: `http://localhost:5173/room/${roomId}`
+                url: `https://sam-video-calling.vercel.app/room/${roomId}`
             }],
             scenario: {
                 mode: ZegoUIKitPrebuilt.OneONoneCall
